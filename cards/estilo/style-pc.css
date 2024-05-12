@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #CBCACC;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-areas: 
+    "container-1 container-2"
+    ;
+    gap: 80px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.container-1{
+    grid-area: container-1;
+    
+    background-color: white;
+    height: 500px;
+    width: 350px;
+}
+
+div.container-2{
+    grid-area: container-2;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    background-color: white;
+    padding: 10px;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(68, 68, 68, 0.445);
+}
+
+div.img-2{
+    background-image: url(/imagens/samsumg-preto.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 300px;
+    height: 300px;
+}
+
+.cores{
+    display: flex;
+}
