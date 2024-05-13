@@ -105,8 +105,21 @@ div.img-1{
     align-self: center;
 }
 
-div.img-2{
+div#img-2{
     background-image: url(/imagens/samsumg-preto.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 300px;
+    height: 300px;
+
+    align-self: center;
+}
+
+div#img-22{
+    display: none;
+    background-image: url(/imagens/samsung-verde.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
