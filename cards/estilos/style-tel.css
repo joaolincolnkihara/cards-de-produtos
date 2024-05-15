@@ -52,7 +52,8 @@
         margin: 0 5px 10px 5px;
     }
     
-    .selecione-cor{
+    .selecione-cor,#msg{
+        display: inline-block;
         font-size: 14px;
         color: rgba(78, 78, 78, 0.829);
         margin: 0 5px 2px 5px;
